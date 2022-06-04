@@ -13,6 +13,7 @@ public class BoxDemo {
 	    double num3 = scan.nextDouble(); 
 		Box box  = new Box(num1, num2, num3);
 		double volume = box.getVolume();
+		scan.close();
 		box.printVolume(volume);
 	}
 }
